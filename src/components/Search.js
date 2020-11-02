@@ -3,10 +3,10 @@ import axios from 'axios';
 
 
 const Search = () => {
-    const [term, setTerm] = useState('programming');
+    const [term, setTerm] = useState('wikipedia');
     const [results, setResults] = useState([]);
     const [debouncedTerm, setDebouncedTerm] = useState(term);
-    const apiURL = `https://en.wikipedia.org/w/api.php`;
+
     useEffect(() => {
         const timerId = setTimeout(() => {
             setDebouncedTerm(term);
