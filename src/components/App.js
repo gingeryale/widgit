@@ -27,7 +27,8 @@ export default () => {
       {showDropdown ?
         <Dropdown selected={selected} onSelectedChange={setSelected} options={options} />
         : null}
-    </div>
+      <h1 style={{ "color": selected.value }}> text</h1>
+    </div >
   );
 }
 
