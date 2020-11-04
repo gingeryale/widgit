@@ -3,7 +3,7 @@ import Dropdown from './Dropdown';
 import Convert from './Convert';
 
 const options = [
-    { id: 1, label: 'Afrikaans', value: 'af' }, { id: 2, label: 'Arabic', value: 'ar' }, { id: 3, label: 'Hindi', value: 'hi' }
+    { id: 1, label: 'Afrikaans', value: 'af' }, { id: 2, label: 'Hebrew', value: 'he' }, { id: 3, label: 'Hindi', value: 'hi' }
 ]
 
 const Translate = () => {
