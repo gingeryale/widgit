@@ -42,7 +42,7 @@ const Dropdown = ({ options, selected, onSelectedChange, label }) => {
                     <div className={`menu ${open ? 'visible transition' : ''}`}>{renderOptions}</div>
                 </div>
             </div>
-            <h1 style={{ "color": selected.value }}>Now I'm {selected.value} color</h1>
+            <h1 style={{ "color": selected.value }}>Now the text is {selected.value}</h1>
         </div>
     )
 }

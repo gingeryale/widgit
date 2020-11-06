@@ -5,7 +5,7 @@ import Dropdown from './Dropdown';
 import Translate from './Translate';
 import Search from './Search';
 import Route from './Route';
-
+import Header from './Header';
 
 const items = [
   { id: 1, title: "What is React?", content: "A front end JS lib" },
@@ -55,6 +55,7 @@ export default () => {
   const [selected, setSelected] = useState(options[0]);
   return (
     <div className="App">
+      <Header />
       {/* {showAccordion()}
       {showList()}
       {showTranslate()}
